@@ -1,7 +1,7 @@
 const express = require('express');
 const { Client } = require('pg');
 const app = express();
-const port = 5000;
+const port = 8080;
 
 const dbClient = new Client({
   host: process.env.DB_HOST || 'localhost',

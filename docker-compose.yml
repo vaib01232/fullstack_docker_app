@@ -19,7 +19,7 @@ services:
       DB_HOST: ${DB_HOST}
       DB_PORT: ${DB_PORT}
     ports:
-      - "5000:5000"
+      - "8080:8080"
     depends_on:
       - db
 
